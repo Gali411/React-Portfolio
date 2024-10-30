@@ -1,6 +1,10 @@
+* {
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 body {
   margin: 0;
-  
   background-color: #fff;
   min-height: 100vh;
   display: flex;
@@ -13,13 +17,14 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
   color: white;
+  padding: 20px;
   background-color: #111;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 50px;
 }
 
 .gabe {
@@ -52,11 +57,16 @@ h1 {
   width: 200px;
 }
 
-input, textarea {
+input textarea {
   display: block; 
   margin-bottom: 15px; 
   width: 100%;
   padding: 10px; 
+}
+
+textarea {
+  width: 300px;
+  height: 300px;
 }
 
 button {
@@ -70,6 +80,10 @@ button {
 
 .nav {
   display: flex;
+  justify-content: center; 
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
 }
 
 .nav a {
@@ -129,6 +143,12 @@ button {
 .project-link {
   text-decoration: none;
   color: inherit;
+}
+
+#submit{
+  position: relative;
+  top: 50px;
+  right: 200px;
 }
 
 .download-link {

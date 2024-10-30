@@ -65,7 +65,7 @@ export default function Contact() {
       value={msg}
       onChange={handleMsgChange}></textarea>
 
-      <button onClick={checkIfEmpty}>Submit</button>
+      <button onClick={checkIfEmpty} id='submit'>Submit</button>
       
       <p id='error'>{message}</p>
     </div>
